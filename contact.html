@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Sangavi</title>
+  </head>
+  <body>
+    <p><strong>Phone</strong>:564678513</p>
+    <p><strong>Address</strong>:Tiruppur</p>
+    <p><strong>mailTo</strong>:abcs@gmail.com</p>
+    <hr>
+    <!--action defines what action to be performed once the datas are typed-->
+    <!--post method feeds the datas to the particular action-->
+    <!--Instaed of having a class to form we are adding enctype. This is to avoid the spl characters-->
+    <form  action="mailto:sangavibrindha@gmail.com" method="post" enctype="plain/text">
+      <label for="">Enter your Name</label>
+      <input type="text" name="" value=""><br>
+      <label for="">Enter your Password</label>
+      <input type="password" name="" value=""><br>
+      <label for="">Enter your date of Birth</label>
+      <input type="date" name="" value=""><br>
+      <label for="">Select your Gender</label>
+      <input type="radio" name="" value="">
+      <label for="">Male</label>
+      <input type="radio" name="" value="">
+      <label for="">Female</label><br>
+      <label for="">Email</label>
+      <input type="email" name="" value=""><br>
+      <label for="">How well you know me</label>
+      <input type="range" name="" value=""><br>
+      <label for="">Pick the color I like the most</label>
+      <input type="color" name="" value=""><br>
+      <label for="">Type a message you want to convey</label>
+      <textarea name="name" rows="10" cols="10"></textarea><br>
+      <input type="submit" name="" value="Submit">
+
+    </form>
+  </body>
+</html>
